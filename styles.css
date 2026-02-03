@@ -1,0 +1,46 @@
+.container {
+    background-color: #121212;
+    color: #e0e0e0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #00ff00; /* Neon green */
+    text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00;
+}
+
+.button {
+    background-color: #00ff00;
+    border: none;
+    color: #121212;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #85ff85; /* Lighter green on hover */
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+}
+
+@keyframes slide {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(0); }
+}
+
+.animated {
+    animation: slide 0.5s ease-in-out;
+}
