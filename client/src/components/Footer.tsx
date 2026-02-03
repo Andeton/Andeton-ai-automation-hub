@@ -17,7 +17,7 @@ export default function Footer() {
           </a>
         </div>
         <p className="text-sm text-muted-foreground">
-          © Tony Derry 2025
+          © Tony Derry {new Date().getFullYear()}
         </p>
       </div>
     </footer>
