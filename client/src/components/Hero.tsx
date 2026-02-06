@@ -23,7 +23,7 @@ export default function Hero() {
               <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-2 border-primary/30 shadow-[0_0_60px_rgba(201,169,98,0.15)]">
                 {!imgError ? (
                   <img
-                    src="https://i.imgur.com/JVCns8m.jpeg"
+                    src="https://i.imgur.com/y9V1g3x.jpeg"
                     alt="Tony Derry"
                     className="w-full h-full object-cover"
                     onError={() => setImgError(true)}
