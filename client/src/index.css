@@ -133,63 +133,62 @@
 }
 
 .dark {
-  --button-outline: rgba(255,255,255, .10);
-  --badge-outline: rgba(255,255,255, .05);
+  --button-outline: rgba(201,169,98, .20);
+  --badge-outline: rgba(201,169,98, .10);
 
-  --opaque-button-border-intensity: 9;  /* In terms of percentages */
+  --opaque-button-border-intensity: 9;
 
-  /* Backgrounds applied on top of other backgrounds when hovered/active */
-  --elevate-1: rgba(255,255,255, .04);
-  --elevate-2: rgba(255,255,255, .09);
+  --elevate-1: rgba(255,255,255, .03);
+  --elevate-2: rgba(255,255,255, .06);
 
-  /* Futuristic AI theme (dark) */
-  --background: 212 30% 6%; /* deep blue */
+  /* Premium Dark Luxury Theme */
+  --background: 240 18% 4%; /* #0A0A0F deep black */
 
-  --foreground: 210 18% 92%;
+  --foreground: 0 0% 98%; /* #FAFAFA white */
 
-  --border: 210 15% 18%;
+  --border: 240 10% 12%;
 
-  --card: 0 0% 10%;
+  --card: 240 15% 7%; /* #16161D surface */
 
   --card-foreground: 0 0% 98%;
 
-  --card-border: 0 0% 15%;
+  --card-border: 240 10% 14%;
 
-  --sidebar: 0 0% 12%;
+  --sidebar: 240 15% 6%;
 
   --sidebar-foreground: 0 0% 98%;
 
-  --sidebar-border: 0 0% 17%;
+  --sidebar-border: 240 10% 12%;
 
-  --sidebar-primary: 217 91% 60%;
+  --sidebar-primary: 43 45% 59%; /* gold */
 
-  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-primary-foreground: 240 18% 4%;
 
-  --sidebar-accent: 274 85% 24%;
+  --sidebar-accent: 43 30% 25%;
 
   --sidebar-accent-foreground: 0 0% 98%;
 
-  --sidebar-ring: 217 91% 60%;
+  --sidebar-ring: 43 45% 59%;
 
-  --popover: 0 0% 14%;
+  --popover: 240 15% 8%;
 
   --popover-foreground: 0 0% 98%;
 
-  --popover-border: 0 0% 19%;
+  --popover-border: 240 10% 14%;
 
-  --primary: 193 100% 50%;
+  --primary: 43 45% 59%; /* #C9A962 gold */
 
-  --primary-foreground: 0 0% 100%;
+  --primary-foreground: 240 18% 4%; /* dark text on gold */
 
-  --secondary: 0 0% 18%;
+  --secondary: 240 10% 14%;
 
   --secondary-foreground: 0 0% 98%;
 
-  --muted: 217 8% 16%;
+  --muted: 240 8% 12%;
 
-  --muted-foreground: 0 0% 65%;
+  --muted-foreground: 0 0% 45%; /* #6B7280 */
 
-  --accent: 274 85% 60%;
+  --accent: 43 35% 45%; /* darker gold for accents */
 
   --accent-foreground: 0 0% 98%;
 
@@ -197,13 +196,13 @@
 
   --destructive-foreground: 0 0% 100%;
 
-  --input: 0 0% 25%;
-  --ring: 217 91% 60%;
-  --chart-1: 217 91% 70%;
-  --chart-2: 262 83% 68%;
-  --chart-3: 173 58% 55%;
-  --chart-4: 43 74% 76%;
-  --chart-5: 27 87% 77%;
+  --input: 240 10% 18%;
+  --ring: 43 45% 59%;
+  --chart-1: 43 45% 59%;
+  --chart-2: 43 35% 45%;
+  --chart-3: 43 55% 70%;
+  --chart-4: 0 0% 70%;
+  --chart-5: 0 0% 50%;
 
   --shadow-2xs: 0px 1px 2px 0px hsl(0 0% 0% / 0.30);
   --shadow-xs: 0px 1px 3px 0px hsl(0 0% 0% / 0.40);
